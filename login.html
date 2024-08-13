@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./assests/Logo maker project (6) (1) (1).png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+  <section>
+    <div class="container1">
+      <div class="user signinBx">
+        <div class="imgBx"><img src="./assests/Signup.jpeg" alt="singup" /></div>
+        <div class="formBx">
+          <form action="" onsubmit="return false;" id="loginForm">
+            <h2>Sign In</h2>
+            <div class="form-group">
+              <input type="text" placeholder="Username" id="username">
+              <small>Error Message</small>
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" id="password">
+              <small>Error Message</small>
+            </div>
+            <input type="submit" class="log_btn" value="Login">
+            <p class="signup">
+              Don't have an account?
+              <a href="#" onclick="toggleForm();">Sign Up.</a>
+            </p>
+          </form>
+        </div>
+      </div>
+      <div class="user signupBx">
+        <div class="formBx">
+          <form action="" onsubmit="return false;">
+            <h2>Create an account</h2>
+            <input type="text" placeholder="Username" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="password" placeholder="Create Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <input type="submit" value="Sign up">
+            <p class="signup">
+              Already have an account?
+              <a href="#" onclick="toggleForm();">Sign in.</a>
+            </p>
+          </form>
+        </div>
+        <div class="imgBx"><img src="./assests/Signin.jpeg" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
